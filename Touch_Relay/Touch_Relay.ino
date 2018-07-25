@@ -4,7 +4,7 @@ void setup() {
   Serial.begin(115200);
   pinMode(touch_pin , INPUT);
   pinMode(relay_pin , OUTPUT);
-  
+ digitalWrite(relay_pin , LOW); 
 }
 
 void loop() {
