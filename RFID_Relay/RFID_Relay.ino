@@ -8,6 +8,7 @@ void setup() {
   SPI.begin();           
   mfrc522.PCD_Init();    
   pinMode(relay_pin , OUTPUT);
+  digitalWrite(relay_pin , LOW);
 }
 void loop() { 
   String ans = "";
