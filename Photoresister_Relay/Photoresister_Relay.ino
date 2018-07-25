@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   int analog_val = analogRead(A0);
   Serial.println(analog_val);
-    if(analog_val > 1000)
+    if(analog_val > 600)
     {
       Serial.println("open");
       digitalWrite(relay_pin , HIGH);
