@@ -2,6 +2,7 @@ int relay_pin = D5;
 void setup() {
   Serial.begin(115200);
   pinMode(relay_pin,OUTPUT);
+  digitalWrite(relay_pin , LOW);
 }
 
 void loop() {
