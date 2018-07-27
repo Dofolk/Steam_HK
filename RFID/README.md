@@ -3,77 +3,15 @@
 https://github.com/miguelbalboa/rfid, download .zip, add to arduino library
 
 
- 
- 
   
-  MFRC522
-
-
+  MFRC522  NodeMcu 
   
+  RST      D3* 
   
-  NodeMcu
-
-
+  SDA      D8*
   
- 
- 
+  MOSI     D7
   
-  RST
-
-
+  MISO     D6
   
-  
-  D3*
-
-
-  
- 
- 
-  
-  SDA
-
-
-  
-  
-  D8*
-
-
-  
- 
- 
-  
-  MOSI
-
-
-  
-  
-  D7
-
-
-  
- 
- 
-  
-  MISO
-
-
-  
-  
-  D6
-
-
-  
- 
- 
-  
-  SCK
-
-
-  
-  
-  D5
-
-
-  
- 
-
+  SCK      D5
