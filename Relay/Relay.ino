@@ -9,7 +9,7 @@ void loop() {
   if(Serial.available())
   {
     char cmd = Serial.read();
-    if(cmd == '0')
+    if(cmd == '1')
     {
       Serial.println("open");
       digitalWrite(relay_pin,HIGH);
