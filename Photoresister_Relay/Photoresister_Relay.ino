@@ -1,4 +1,4 @@
-#define relay_pin D3
+#define relay_pin D5
 #define val_pin A0
 void setup() {
   Serial.begin(115200);
