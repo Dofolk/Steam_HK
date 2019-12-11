@@ -15,3 +15,4 @@ void loop() {
   digitalWrite(relay_pin , sta);
   delay(1000);
 }
+//1 is high, 0 is low, if sensed, report as 0 
